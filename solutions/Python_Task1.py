@@ -13,9 +13,8 @@ def generate_car_matrix(dataframe):
 
     return result_df
 
-# Example usage
-# Assuming you have loaded your dataset-1.csv into a DataFrame named df
-df = pd.read_csv('dataset-1.csv')
+#loading the data into data frame
+df = pd.read_csv('datasets\dataset-1.csv')
 
 # Generate the car matrix using the defined function
 result_matrix = generate_car_matrix(df)
